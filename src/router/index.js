@@ -1,14 +1,18 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "首页",
-    component: () =>
-      import(/* webpackChunkName: "首页" */ "../views/HomeView.vue"),
+    path: '/HomeView',
+    name: '页面1',
+    component: () => import(/* webpackChunkName: "首页" */ '../views/HomeView.vue'),
+  },
+  {
+    path: '/PageIndex',
+    name: '页面2',
+    component: () => import(/* webpackChunkName: "内容" */ '../views/PageIndex.vue'),
   },
 ];
 

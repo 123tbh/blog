@@ -1,0 +1,23 @@
+{
+  "id": "3679637",
+  "name": "图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "用来制作blog",
+  "glyphs": [
+    {
+      "icon_id": "9704212",
+      "name": "看书",
+      "font_class": "shouyefill2",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "673798",
+      "name": "首页_fill",
+      "font_class": "shouyefill1",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    }
+  ]
+}

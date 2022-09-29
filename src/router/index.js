@@ -14,6 +14,10 @@ const routes = [
     name: '页面2',
     component: () => import(/* webpackChunkName: "内容" */ '../views/PageIndex.vue'),
   },
+  {
+    path: '/',
+    redirect: '/PageIndex',
+  }, //初次加载路由地址
 ];
 
 const router = new VueRouter({
